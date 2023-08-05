@@ -1,0 +1,11 @@
+{
+  "posts": [
+    {
+      "title": "What is Next JS",
+      "publicationDate": "2023-08-06",
+      "summary": "Next.js is a React framework for building full-stack web applications. You use React Components to build user interfaces, and Next.js for additional features and optimizations.",
+      "id": 1
+    }
+   
+  ]
+}
