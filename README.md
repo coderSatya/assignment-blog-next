@@ -36,3 +36,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+Hello, in this project, you can basically add a blog, and you can see all the blogs on the homepage. I have used server-side rendering to fetch the data and JSON Server to post the data for the blog. So, you must run this command too: `json-server --watch db.json --port 5000` to run the JSON Server, as from this API, only I am fetching data and rendering blogs on the homepage. I have also added search and pagination functionality. You can see only 3 blogs on a page after that, you will see the blogs on next page. For CSS, I have used Tailwind CSS. Hope you like this project.
