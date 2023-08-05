@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import axios from "axios";
 import Link from "next/link";
 
-const index = ({ blogdetail }) => {
+const Index = ({ blogdetail }) => {
   const [isBlogdetail, setIsBlogDetail] = useState([]);
   useEffect(() => {
     setIsBlogDetail([blogdetail]);
@@ -59,7 +59,7 @@ const index = ({ blogdetail }) => {
   );
 };
 
-export default index;
+export default Index;
 
 export const getServerSideProps = async (context) => {
   const { id } = context.query;
